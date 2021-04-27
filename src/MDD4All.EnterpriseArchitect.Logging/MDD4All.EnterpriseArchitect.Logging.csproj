@@ -10,6 +10,8 @@
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
         <PackageTags>EnterpriseArchitect Logging</PackageTags>
         <Description>Nlog logging provider for Enterprise Architect Plugins</Description>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
